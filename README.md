@@ -2,7 +2,7 @@
 
 Abismo Salvaje es una casa productora enfocada en el erotismo femenino, al sentir de ser mujer y tener el espíritu de una mujer salvaje y libre.
 
-Abismo Salvaje is a production company focused on female erotica. On our free, wild, female spirit within.
+Abismo Salvaje is a production company focused on female erotica and on our free, wild, female spirit within.
 
 This project is a static website for Abismo Salvaje.
 

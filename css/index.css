@@ -1,0 +1,55 @@
+.home-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 620px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h2 > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+h2 > a:hover,
+h2 > a:focus {
+  text-decoration: underline;
+  /* TODO: text-color: #choosehex; */
+}
+
+/* Scattered look for big screens */
+@media (min-width: 992px) {
+  .home-container {
+    align-items: end;
+  }
+  .home-container #quienes-somos {
+    margin-right: 24%;
+  }
+  .home-container #producciones-audiovisuales {
+    margin-right: 10%;
+  }
+  .home-container #foto-fija {
+    margin-right: 28%;
+  }
+  .home-container #entrevistas {
+    margin-right: 21%;
+  }
+  .home-container #eventos {
+    margin-right: 29%;
+  }
+  .home-container #tienda {
+    margin-right: 32%;
+  }
+  .home-container #contacto {
+    margin-right: 24%;
+  }
+}
