@@ -3,10 +3,11 @@
 /assets/images/large/*
 
 # Can contain sensitive content
+/assets/*
 /assets/images/*
 /assets/images/stills/*
-/assets/images/*
-/assets/*
+/assets/images/large/*
+/assets/videos
 
 # Dependency directories
 node_modules/

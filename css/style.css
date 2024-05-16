@@ -18,6 +18,17 @@ body {
   font-size: 1.3rem; /* todo: remove this from other places where I defined font-size */
 }
 
+/* 
+--------------------- HEADER ---------------------
+*/
+header {
+  font-size: 1.2rem; /* todo: keep this size? */
+}
+
+.pagina-actual {
+  text-decoration: underline;
+}
+
 /* TODO: change the image to svg or change the color of the image file */
 .as-icon {
   -webkit-filter: invert(1);
