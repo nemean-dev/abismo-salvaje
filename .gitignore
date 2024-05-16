@@ -1,0 +1,28 @@
+# Large media files
+/assets/videos/*
+/assets/images/large/*
+
+# Can contain sensitive content
+/assets/images/*
+/assets/images/stills/*
+/assets/images/*
+/assets/*
+
+# Dependency directories
+node_modules/
+
+# Compiled output
+/dist
+/build
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.tmp
+*~
