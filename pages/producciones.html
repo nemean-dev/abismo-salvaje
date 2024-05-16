@@ -22,7 +22,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/quienes-somos.css" />
+    <link rel="stylesheet" href="../css/producciones.css" />
 
     <title>Abismo Salvaje - Quiénes Somos</title>
   </head>
@@ -111,25 +111,83 @@
     </header>
 
     <main>
-      <div id="quienes-somos-text" class="p-4 rounded">
-        <p>
-          Abismo Salvaje es una casa productora enfocada en el erotismo
-          femenino. Al hablar de erotismono hablo de lo que nos han enseñado y
-          con lo que hemos crecido.
-        </p>
+      <div id="#my-carousel" class="container">
+        <div id="myCarouselIndicator" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarouselIndicator"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarouselIndicator"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarouselIndicator"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
 
-        <!-- TODO: change span font -->
-        <p>
-          Al referirme a erotismo me dirijo <span>AL SENTIR;</span> al sentir de
-          se mujer y tener el espíritu de una mujer salvaje y libre. Libre de
-          miradas objetivas, libre de prejuicios, libre de juicios. Me refiero a
-          un palpitar femenino que se encuentra en cada uno de nosotros; es
-          pile, es dolor, el alegría, es enojo y es frustración. Abismo Salvaje
-          es una productoraque se enfoca en el
-          <span>espíritu animal y sagrado que todas tnemos dentro.</span> Abismo
-          Salvaje es un acto de amor que nace de una revolución.
-        </p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="my-card">
+                <img src="../assets/images/stills/icarus/A.jpeg" alt="test" />
+                <img src="../assets/images/stills/icarus/D.jpeg" alt="test" />
+                <img src="../assets/images/stills/icarus/I.jpeg" alt="test" />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="my-card">
+                <img
+                  src="../assets/images/stills/mantidae/MANTIDAE_-11.jpg"
+                  alt="test"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="my-card">
+                <img
+                  src="../assets/images/stills/mantidae/MANTIDAE_-31.jpg"
+                  alt="test"
+                />
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarouselIndicator"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarouselIndicator"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

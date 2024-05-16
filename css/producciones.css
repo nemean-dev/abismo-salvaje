@@ -1,0 +1,16 @@
+#my-carousel {
+  width: 70%;
+}
+
+.my-card {
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  gap: 0.5rem;
+}
+
+.my-card > img {
+  height: auto; /* Maintain the original height of the image */
+  max-width: 100%; /* Limit the width to prevent horizontal stretching */
+  object-fit: contain; /* Ensures the image is scaled to be as large as possible while still being contained within the element's box */
+}
