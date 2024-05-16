@@ -1,0 +1,11 @@
+#quienes-somos-text {
+  background-image: url("../images/backgrounds/bg-paper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 45px;
+  font-family: "Courier New", Courier, monospace; /* todo: keep this font? */
+}
