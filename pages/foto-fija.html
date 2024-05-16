@@ -96,6 +96,76 @@
       </div>
     </header>
 
+    <main>
+      <!-- Las bolitas flotantes -->
+      <div id="floating1" class="floating-div">
+        <a
+          href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#lightboxModal"
+          data-short-id="icarus"
+        >
+          <button class="floating-button grow">icarus</button>
+        </a>
+      </div>
+      <div id="floating2" class="floating-div">
+        <a
+          href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#lightboxModal"
+          data-short-id="mantidae"
+        >
+          <button class="floating-button grow">mantidae</button>
+        </a>
+      </div>
+      <div id="floating3" class="floating-div">
+        <a
+          href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#lightboxModal"
+          data-short-id="samai"
+        >
+          <button class="floating-button grow">samai</button>
+        </a>
+      </div>
+      <div id="floating4" class="floating-div">
+        <a
+          href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#lightboxModal"
+          data-short-id="sacred-home"
+        >
+          <button class="floating-button grow">sacred home of pleasure</button>
+        </a>
+      </div>
+
+      <!-- lightbox implementation using modal -->
+      <div
+        class="modal fade"
+        id="lightboxModal"
+        tabindex="-1"
+        aria-labelledby="modalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">Stills Preview</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!-- Content from lightbox.js will be loaded here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

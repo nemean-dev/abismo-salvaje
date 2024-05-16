@@ -1,0 +1,82 @@
+.floating-div {
+  position: absolute;
+
+  font-family: "Kirang Haerang", sans-serif;
+}
+.floating-button {
+  border-radius: 50%;
+  border: none;
+  color: #aaab;
+  height: 200px;
+  width: 200px;
+  font-size: 2rem;
+}
+.floating-button:hover,
+.floating-button:focus {
+  color: white;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.1);
+}
+
+/* CSS for the modal lightbox */
+.modal-content {
+  background-color: #c997a5;
+  color: #333333;
+}
+.modal-header {
+  border-color: #704264;
+  border-width: 1px;
+}
+.modal-title {
+  font-size: 5rem;
+  font-family: "Square Peg", cursive;
+}
+
+/* Specific classes for each floating circle */
+/* INTERTWINED */
+#floating1 {
+  top: 20%;
+  left: 25%;
+}
+#floating1 > a > button {
+  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-position: center;
+  background-size: cover;
+}
+/* MARIPOSA */
+#floating2 {
+  top: 52%;
+  left: 45%;
+}
+#floating2 > a > button {
+  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-position: center;
+  background-size: cover;
+}
+/* MORPHY */
+#floating3 {
+  top: 28%;
+  left: 64%;
+}
+#floating3 > a > button {
+  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-position: center;
+  background-size: cover;
+}
+/* APERTURA */
+#floating4 {
+  top: 60%;
+  left: 15%;
+}
+#floating4 > a > button {
+  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-position: center;
+  background-size: cover;
+}

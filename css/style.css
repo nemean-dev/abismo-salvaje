@@ -10,7 +10,7 @@ body {
   width: 100vw;
   height: 100vh;
   min-height: 620px;
-  background-image: url(../assets/images/large/backgrounds/bg-pages.png); /* TODO: change to jpg/jpeg and reduce size to 100-200kb */
+  background-image: url(../assets/large/images/backgrounds/bg-pages.png); /* TODO: change to jpg/jpeg and reduce size to 100-200kb */
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
