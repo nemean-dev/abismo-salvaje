@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //final image path is stillsDirectory/still/image.jpeg for example
   const imagePaths = {
-    icarus: ["A.jpeg", "D.jpeg", "I.jpeg"],
+    icarus: ["A.jpeg", "B.jpg", "I.jpeg", "F.jpg", "H.jpg"],
     mantidae: [
       "mantidae43.jpg",
       "mantidae47.jpg",
@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "mantidae45.jpg",
       "mantidae11.jpg",
     ],
-    "sacred-home": [],
-    samai: [],
+    "sacred-home": ["A.jpg", "B.jpg", "D.jpg", "E.jpg", "C.jpg", "F.jpg"],
+    samai: ["A.jpg", "B.jpg", "C.jpg", "D.jpg", "E.jpg", "F.jpg"],
   };
 
   lightboxModal.addEventListener("show.bs.modal", (event) => {
