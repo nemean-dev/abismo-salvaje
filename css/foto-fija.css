@@ -40,43 +40,43 @@
 }
 
 /* Specific classes for each floating circle */
-/* INTERTWINED */
+/* ICARUS */
 #floating1 {
   top: 20%;
   left: 25%;
 }
 #floating1 > a > button {
-  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/icarus75.jpg);
   background-position: center;
   background-size: cover;
 }
-/* MARIPOSA */
+/* MANTIDAE */
 #floating2 {
   top: 52%;
   left: 45%;
 }
 #floating2 > a > button {
-  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/mantidae20.jpg);
   background-position: center;
   background-size: cover;
 }
-/* MORPHY */
+/* SAMAI */
 #floating3 {
   top: 28%;
   left: 64%;
 }
 #floating3 > a > button {
-  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/samai90.jpg);
   background-position: center;
   background-size: cover;
 }
-/* APERTURA */
+/* SACRED HOME OF PLEASURE */
 #floating4 {
   top: 60%;
   left: 15%;
 }
 #floating4 > a > button {
-  background-image: url(../images/backgrounds/bg-floating1.png);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/sacred10.jpg);
   background-position: center;
   background-size: cover;
 }
