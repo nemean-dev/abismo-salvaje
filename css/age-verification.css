@@ -25,18 +25,33 @@ body {
 
 .text-box {
   padding: 3rem;
-  width: fit-content;
   font-size: 1.3rem;
   text-align: center;
   /* background-color: #556b2f55; */
-  position: absolute;
-  right: 7%;
-  top: 7%;
 }
 
 .text-box button {
   background: none;
   color: inherit;
   border: none;
-  font-size: larger;
+  font-size: large;
+  background-color: #aaa2;
+  border-radius: 5px;
+  margin: 1rem;
+  width: 5rem;
+  padding: 0.5rem;
+  margin-top: 0;
+}
+.text-box button:hover {
+  color: black;
+  background-color: #6666;
+}
+
+@media (min-width: 991px) {
+  .text-box {
+    width: fit-content;
+    position: absolute;
+    right: 7%;
+    top: 7%;
+  }
 }
