@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
 
-    <!-- Age Verification Check -->
+    <!-- Age Check -->
     <script>
       if (localStorage.getItem("ageVerified") !== "true") {
-        window.location.href = "age-verification.html"; // Redirect to age verification page
+        const currentPage = window.location.href;
+        window.location.href = `age-verification.html?redirect=${encodeURIComponent(
+          currentPage
+        )}`;
       }
     </script>
 

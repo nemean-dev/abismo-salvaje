@@ -26,11 +26,18 @@
     </div>
 
     <script>
+      function getQueryParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+      }
+
+      const redirectUrl = getQueryParameter("redirect") || "index.html";
+
       document
         .getElementById("age-check-yes")
         .addEventListener("click", function () {
           localStorage.setItem("ageVerified", "true"); //TODO: set this to expire?
-          window.location.href = "index.html"; //TODO: redirect to source url
+          window.location.href = redirectUrl;
         });
 
       document
