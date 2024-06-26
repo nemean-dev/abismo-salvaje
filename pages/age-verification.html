@@ -26,15 +26,19 @@
     </div>
 
     <script>
-      document.getElementById("btnYes").addEventListener("click", function () {
-        localStorage.setItem("ageVerified", "true"); //TODO: set this to expire?
-        window.location.href = "index.html";
-      });
+      document
+        .getElementById("age-check-yes")
+        .addEventListener("click", function () {
+          localStorage.setItem("ageVerified", "true"); //TODO: set this to expire?
+          window.location.href = "index.html"; //TODO: redirect to source url
+        });
 
-      document.getElementById("btnNo").addEventListener("click", function () {
-        alert("You must be 18 years or older to enter this site.");
-        window.location.href = "https://www.google.com";
-      });
+      document
+        .getElementById("age-check-no")
+        .addEventListener("click", function () {
+          alert("Debes tener 18 años o más para entrar a este sitio.");
+          window.location.href = "https://www.google.com";
+        });
     </script>
   </body>
 </html>
