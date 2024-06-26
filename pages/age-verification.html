@@ -24,5 +24,17 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById("btnYes").addEventListener("click", function () {
+        localStorage.setItem("ageVerified", "true"); //TODO: set this to expire?
+        window.location.href = "index.html";
+      });
+
+      document.getElementById("btnNo").addEventListener("click", function () {
+        alert("You must be 18 years or older to enter this site.");
+        window.location.href = "https://www.google.com";
+      });
+    </script>
   </body>
 </html>
