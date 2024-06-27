@@ -12,6 +12,29 @@ This project is a static website for Abismo Salvaje.
 
 This repository is for hosting the website code. The images and other assets are not uploaded because they might contain sensitive content and to keep the repository lightweight and manageable.
 
+## Example File Structure
+
+For resources not included in the repository
+
+```
+assets
+├── icons
+│   └── favicon_io
+├── images
+│   ├── backgrounds
+│   │   └── foto-fija-bolitas
+│   ├── elements
+│   └── stills
+│       ├── icarus
+│       ├── mantidae
+│       ├── sacred-home
+│       ├── samai
+│       └── uma
+└── videos
+    ├── full
+    └── short
+```
+
 ## Copyright
 
 © 2024 Abismo Salvaje. All rights reserved.
