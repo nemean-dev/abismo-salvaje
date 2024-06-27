@@ -6,7 +6,9 @@
 
     <!-- Age Check -->
     <script>
-      if (localStorage.getItem("ageVerified") !== "true") {
+      // if (localStorage.getItem("ageVerified") !== "true") {   use sessionStorage for testing
+      // TODO: change to cookie and set expiry.
+      if (sessionStorage.getItem("ageVerified") !== "true") {
         const currentPage = window.location.href;
         window.location.href = `age-verification.html?redirect=${encodeURIComponent(
           currentPage

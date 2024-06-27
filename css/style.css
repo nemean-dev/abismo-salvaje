@@ -16,6 +16,21 @@ body {
   background-repeat: repeat;
   color: white; /* todo: is this the best way? */
   font-size: 1.3rem; /* todo: remove this from other places where I defined font-size */
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: white;
+  /* background-color: #c0c0c010;
+  border-radius: 15px; */
 }
 
 /* 
@@ -39,17 +54,6 @@ header {
 
 h2 {
   font-size: 1.7rem;
-}
-
-h2 > a {
-  text-decoration: none;
-  color: whitesmoke;
-}
-
-h2 > a:hover,
-h2 > a:focus {
-  text-decoration: underline;
-  /* TODO: text-color: #choosehex; */
 }
 
 #quienes-somos {
@@ -79,4 +83,27 @@ h2 > a:focus {
 #contacto {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
+}
+
+/* 
+------------------------- MAIN -------------------------
+*/
+
+main {
+  flex: 1;
+}
+
+/* 
+------------------------ FOOTER ------------------------
+*/
+footer .nav-link {
+  color: #999;
+}
+footer .nav-link:hover {
+  color: #ccc;
+}
+
+.footer-icon {
+  filter: invert(45%) sepia(3%) saturate(1550%) hue-rotate(167deg)
+    brightness(97%) contrast(79%);
 }
