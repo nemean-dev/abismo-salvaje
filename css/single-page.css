@@ -1,0 +1,54 @@
+/* ---------------- BODY ---------------- */
+body {
+  background-image: url(../assets/large/images/backgrounds/bg-pages.png); /* TODO: change to jpg/jpeg and reduce size to 100-200kb */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+/* --------------- HEADER --------------- */
+header {
+  font-size: 1.2rem;
+}
+.as-transparent {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+}
+.as-icon {
+  -webkit-filter: invert(1);
+  filter: invert(0.7);
+  height: 3rem;
+}
+
+#producciones {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+}
+#foto-fija {
+  font-family: "Josefin Sans", sans-serif;
+}
+#quienes-somos {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+  color: #c0ffee;
+}
+#tienda {
+  font-family: "Josefin Sans", sans-serif;
+}
+/* ---------------- MAIN ---------------- */
+/* Carousel */
+.carousel-item {
+  height: 26rem;
+  background: #7773;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.as-carousel-container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 100%;
+}
+/* --------------- FOOTER --------------- */
