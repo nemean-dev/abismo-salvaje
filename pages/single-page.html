@@ -46,9 +46,9 @@
       <!-- todo: remove bg-dark when there's a background image -->
       <nav
         data-bs-theme="dark"
-        class="as-transparent navbar navbar-expand-md mb-4 py-3 bg-dark text-white px-2"
+        class="as-transparent navbar navbar-expand-md py-3 bg-dark text-white px-2"
       >
-        <div class="container">
+        <div class="container col-xxl-8">
           <a href="#" class="navbar-brand">
             <img
               src="../assets/icons/logo.svg"
@@ -112,6 +112,9 @@
     </header>
 
     <main>
+
+      <div class="as-divider"></div>
+
       <!-- PRODUCCIONES CAROUSEL -->
       <div id="as-carousel-1" class="carousel slide">
         <!-- indicator buttons -->
@@ -168,9 +171,7 @@
               background-size: contain;
             "
           >
-            <div
-              class="d-flex h-100 justify-content-center align-items-center"
-            >
+            <div class="d-flex h-100 justify-content-center align-items-center">
               <h2>icarus</h2>
             </div>
           </div>
@@ -209,9 +210,14 @@
                     El trasfondo este medio transparente se puede cambiar.
                   </li>
                   <li>
-                    También se podrían combinar múltiples fotos para hacer un
-                    collage horizontal.
+                    También se podrían combinar múltiples fotos en un solo slide
+                    para hacer un collage horizontal.
                   </li>
+                  <li>
+                    En general si queremos poner videos hay que reducir su
+                    tamaño lo más posible y usar mp4.
+                  </li>
+                  <li>También considerar gifs.</li>
                 </ul>
               </div>
             </div>
@@ -236,6 +242,99 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+
+      <div class="as-divider"></div>
+
+      <!-- SAMAI HERO -->
+      <div class="container col-xxl-8 px-4" data-bs-theme="dark">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="../assets/images/backgrounds/foto-fija-bolitas/samai90.jpg"
+              class="d-block mx-lg-auto img-fluid border border-danger"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 border-bottom">
+              Samai
+            </h2>
+            <p class="text-white">
+              Samai es deseo. Es pasión, vitalidad y energía. Es sudor. Nuestros
+              acotores juanito y juanita Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Corrupti id rerum eos iste maxime
+              cupiditate fugit neque. Reiciendis quidem atque, sed quo obcaecati
+              sequi assumenda ipsam veritatis maiores magnam saepe?
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-sm btn-outline-light btn-lg px-4 me-md-2">
+                Subscripción
+              </button>
+              <button
+                type="button"
+                class="btn btn-sm btn-outline-info btn-lg px-4"
+              >
+                Ver stills
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="as-divider"></div>
+
+      <!-- SACRED HERO -->
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">Dark color hero</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button
+                type="button"
+                class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+              >
+                Subscribirme
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                Ver stills
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="as-divider"></div>
+
+      <!-- QUIÉNES SOMOS -->
+      <div id="quienes-somos-text" class="container rounded p-4 mt-4">
+        <h2>Quiénes Somos</h2>
+        <p>
+          Abismo Salvaje es una casa productora enfocada en el erotismo
+          femenino. Al hablar de erotismono hablo de lo que nos han enseñado y
+          con lo que hemos crecido.
+        </p>
+
+        <!-- TODO: change span font -->
+        <p>
+          Al referirme a erotismo me dirijo <span>AL SENTIR;</span> al sentir de
+          se mujer y tener el espíritu de una mujer salvaje y libre. Libre de
+          miradas objetivas, libre de prejuicios, libre de juicios. Me refiero a
+          un palpitar femenino que se encuentra en cada uno de nosotros; es
+          pile, es dolor, el alegría, es enojo y es frustración. Abismo Salvaje
+          es una productoraque se enfoca en el
+          <span>espíritu animal y sagrado que todas tnemos dentro.</span> Abismo
+          Salvaje es un acto de amor que nace de una revolución.
+        </p>
       </div>
     </main>
 
