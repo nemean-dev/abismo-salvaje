@@ -112,76 +112,130 @@
     </header>
 
     <main>
-      <div id="#my-carousel" class="container">
-        <div id="myCarouselIndicator" class="carousel slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#myCarouselIndicator"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarouselIndicator"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarouselIndicator"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="my-card">
-                <img src="../assets/images/stills/icarus/A.jpeg" alt="test" />
-                <img src="../assets/images/stills/icarus/B.jpg" alt="test" />
-                <img src="../assets/images/stills/icarus/I.jpeg" alt="test" />
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="my-card">
-                <img
-                  src="../assets/images/stills/mantidae/mantidae11.jpg"
-                  alt="test"
-                />
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="my-card">
-                <img
-                  src="../assets/images/stills/mantidae/mantidae31.jpg"
-                  alt="test"
-                />
-              </div>
-            </div>
-          </div>
-
+      <!-- PRODUCCIONES CAROUSEL -->
+      <div id="as-carousel-1" class="carousel slide">
+        <!-- indicator buttons -->
+        <div class="carousel-indicators">
           <button
-            class="carousel-control-prev"
             type="button"
-            data-bs-target="#myCarouselIndicator"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
+            data-bs-target="#as-carousel-1"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
           <button
-            class="carousel-control-next"
             type="button"
-            data-bs-target="#myCarouselIndicator"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            data-bs-target="#as-carousel-1"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#as-carousel-1"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#as-carousel-1"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
+
+        <!-- slides -->
+        <div class="carousel-inner">
+          <!-- SLIDE 1 -->
+          <div
+            class="carousel-item active"
+            style="
+              background-image: url(../assets/images/backgrounds/slide-bg-sacred.jpeg);
+            "
+          >
+            <div
+              class="d-flex container align-items-top justify-content-center pt-5"
+            >
+              <h2 class="my-4 fs-1">Sacred Home of Pleasure</h2>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: url(../assets/images/backgrounds/slide-bg-icarus.jpeg);
+              background-size: contain;
+            "
+          >
+            <div
+              class="d-flex h-100 justify-content-center align-items-center"
+            >
+              <h2>icarus</h2>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: url(../assets/images/backgrounds/slide-bg-mantidae.jpg);
+              background-size: contain;
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 justify-content-center align-items-center"
+            >
+              <h2>mantidae</h2>
+              <button class="btn btn-sm btn-outline-light">Ver Proyecto</button>
+            </div>
+          </div>
+
+          <!-- SLIDE 4 -->
+          <div class="carousel-item">
+            <div class="container h-100 row">
+              <div class="col-5 d-flex justify-content-end align-items-center">
+                <img
+                  src="https://picsum.photos/300/400?grayscale"
+                  alt="random image"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-6 d-flex flex-column justify-content-center">
+                <h2>samai</h2>
+                <ul>
+                  <li>No tengo stills de Samai.</li>
+                  <li>
+                    El trasfondo este medio transparente se puede cambiar.
+                  </li>
+                  <li>
+                    También se podrían combinar múltiples fotos para hacer un
+                    collage horizontal.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- buttons next/prev -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#as-carousel-1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#as-carousel-1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </main>
 

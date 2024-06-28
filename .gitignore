@@ -24,6 +24,7 @@ node_modules/
 Thumbs.db
 
 # Editor temporary files
+/.vscode/*
 *.swp
 *.tmp
 *~
