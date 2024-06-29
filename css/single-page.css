@@ -57,12 +57,101 @@ header {
 }
 
 /* Quienes Somos */
-#quienes-somos-text {
+#quienes-somos-text div {
   background-image: url("../assets/images/backgrounds/bg-paper.jpg"); /*  todo: reduce size more? */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Courier New", Courier, monospace; /* todo: keep this font? */
+}
+
+/* Foto Fija */
+#stills {
+  position: relative;
+  height: 40rem
+}
+
+.floating-div {
+  position: absolute;
+
+  font-family: "Kirang Haerang", sans-serif;
+}
+.floating-button {
+  border-radius: 50%;
+  border: none;
+  color: #aaab;
+  height: 200px;
+  width: 200px;
+  font-size: 2rem;
+}
+.floating-button:hover,
+.floating-button:focus {
+  color: white;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.1);
+}
+
+/* CSS for the modal lightbox */
+.modal-content {
+  background-color: #c997a5;
+  color: #333333;
+}
+.modal-header {
+  border-color: #704264;
+  border-width: 1px;
+}
+.modal-title {
+  font-size: 5rem;
+  font-family: "Square Peg", cursive;
+}
+
+/* Specific classes for each floating circle */
+/* ICARUS */
+#floating1 {
+  top: 20%;
+  left: 25%;
+}
+#floating1 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/icarus75.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* MANTIDAE */
+#floating2 {
+  top: 52%;
+  left: 45%;
+}
+#floating2 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/mantidae20.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* SAMAI */
+#floating3 {
+  top: 28%;
+  left: 64%;
+}
+#floating3 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/samai80.png);
+  background-position: center;
+  background-size: cover;
+}
+/* SACRED HOME OF PLEASURE */
+#floating4 {
+  top: 60%;
+  left: 15%;
+}
+#floating4 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/sacred10.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* --------------- FOOTER --------------- */

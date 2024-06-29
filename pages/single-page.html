@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Age Check -->
-    <!-- <script>
+    <script>
       if (localStorage.getItem("ageVerified") !== "true") {
         const currentPage = window.location.href;
         window.location.href = `age-verification.html?redirect=${encodeURIComponent(
           currentPage
         )}`;
       }
-    </script> -->
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -85,7 +85,7 @@
                 <a
                   id="foto-fija"
                   class="nav-link text-white mx-md-1 mx-lg-2"
-                  href="#"
+                  href="#stills"
                   >foto fija</a
                 >
               </li>
@@ -112,7 +112,7 @@
     </header>
 
     <main>
-      <div class="as-divider"></div>
+      <!-- <div class="as-divider"></div> -->
 
       <!-- SAMAI HERO -->
       <div class="container col-xxl-8 px-4" data-bs-theme="dark">
@@ -127,7 +127,7 @@
               width="700"
               height="500"
               loading="lazy"
-              style="border: 1px solid firebrick;"
+              style="border: 1px solid firebrick"
             />
           </div>
           <div class="col-lg-6">
@@ -161,7 +161,8 @@
         </div>
       </div>
 
-      <div class="as-divider"></div>
+      <!-- <div class="as-divider"></div> -->
+      <div class="container col-xxl-8 px-4"> <hr class="border"></div>
 
       <!-- SACRED HERO -->
       <div class="container col-xxl-8 px-4" data-bs-theme="dark">
@@ -206,7 +207,7 @@
         </div>
       </div>
 
-      <div class="as-divider"></div>
+      <!-- <div class="as-divider"></div> -->
 
       <!-- PRODUCCIONES CAROUSEL -->
       <div id="as-carousel-1" class="carousel slide">
@@ -337,10 +338,87 @@
         </button>
       </div>
 
-      <div class="as-divider"></div>
+      <!-- <div class="as-divider"></div> -->
+
+      <!-- STILLS -->
+      <section id="stills">
+        <h2 class="text-white text-center pt-4 mt-5 fs-1">STILLS</h2>
+        <!-- Las bolitas flotantes -->
+        <div id="floating1" class="floating-div">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#lightbox-modal"
+            data-short-id="icarus"
+          >
+            <button class="floating-button grow">icarus</button>
+          </a>
+        </div>
+        <div id="floating2" class="floating-div">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#lightbox-modal"
+            data-short-id="mantidae"
+          >
+            <button class="floating-button grow">mantidae</button>
+          </a>
+        </div>
+        <div id="floating3" class="floating-div">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#lightbox-modal"
+            data-short-id="samai"
+          >
+            <button class="floating-button grow">samai</button>
+          </a>
+        </div>
+        <div id="floating4" class="floating-div">
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#lightbox-modal"
+            data-short-id="sacred-home"
+          >
+            <button class="floating-button grow">
+              sacred home of pleasure
+            </button>
+          </a>
+        </div>
+
+        <!-- lightbox implementation using modal -->
+        <div
+          class="modal fade"
+          id="lightbox-modal"
+          tabindex="-1"
+          aria-labelledby="modalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Stills Preview</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- Content from lightbox.js will be loaded here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="as-divider"></div> -->
 
       <!-- QUIÉNES SOMOS -->
-      <div id="quienes-somos-text" class="container  col-xxl-8 p-4 mt-4">
+      <section id="quienes-somos-text" class="container col-xxl-8 px-4">
+      <div class="p-4">
         <h2 class="d-inline-block">Quiénes Somos</h2>
         <p>
           Abismo Salvaje es una casa productora enfocada en el erotismo
@@ -359,11 +437,11 @@
           <span>espíritu animal y sagrado que todas tnemos dentro.</span> Abismo
           Salvaje es un acto de amor que nace de una revolución.
         </p>
-      </div>
+      </div></section>
     </main>
 
     <!-- FOOTER -->
-    <div class="container">
+    <div class="container mt-5">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-auto border-top border-secondary"
       >
@@ -407,9 +485,9 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      document
-        .getElementById("currentYear")
-        .textContent = new Date().getFullYear();
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
     </script>
+    <script src="../js/lightbox.js"></script>
   </body>
 </html>
