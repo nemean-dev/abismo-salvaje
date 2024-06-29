@@ -99,7 +99,8 @@ main {
 footer .nav-link {
   color: #999;
 }
-footer .nav-link:hover {
+footer .nav-link:hover,
+footer .nav-link:focus {
   color: #ccc;
 }
 

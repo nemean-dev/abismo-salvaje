@@ -66,3 +66,18 @@ header {
 }
 
 /* --------------- FOOTER --------------- */
+footer .nav-link,
+footer p {
+  color: #999;
+}
+footer .nav-link:hover,
+footer .nav-link:focus,
+footer p:hover,
+footer p:focus {
+  color: #ccc;
+}
+
+.footer-icon {
+  filter: invert(45%) sepia(3%) saturate(1550%) hue-rotate(167deg)
+    brightness(97%) contrast(79%);
+}
