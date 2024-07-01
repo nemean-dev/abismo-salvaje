@@ -60,19 +60,19 @@ header {
   height: 3rem;
 }
 
-#producciones {
+#as-nav-producciones {
   font-family: "Square Peg", cursive;
   font-weight: 400;
 }
-#foto-fija {
+#as-nav-foto-fija {
   font-family: "Josefin Sans", sans-serif;
 }
-#quienes-somos {
+#as-nav-quienes-somos {
   font-family: "Square Peg", cursive;
   font-weight: 400;
   /* color: #c0ffee; why is this not rendering */
 }
-#tienda {
+#as-nav-tienda {
   font-family: "Josefin Sans", sans-serif;
 }
 /* ---------------- MAIN ---------------- */

@@ -174,16 +174,16 @@
             <ul class="navbar-nav text-white">
               <li class="nav-item">
                 <a
-                  id="producciones"
+                  id="as-nav-producciones"
                   class="nav-link text-white mx-md-1 mx-lg-2"
                   aria-current="page"
-                  href="#as-carousel-1"
+                  href="#producciones"
                   >PRODUCCIONES</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  id="foto-fija"
+                  id="as-nav-foto-fija"
                   class="nav-link text-white mx-md-1 mx-lg-2"
                   href="#stills"
                   >foto fija</a
@@ -191,7 +191,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  id="quienes-somos"
+                  id="as-nav-quienes-somos"
                   class="nav-link text-white mx-md-1 mx-lg-2"
                   href="#quienes-somos-text"
                   >QUIENES SOMOS</a
@@ -199,7 +199,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  id="tienda"
+                  id="as-nav-tienda"
                   class="nav-link text-white mx-md-1 mx-lg-2"
                   aria-disabled="true"
                   >tienda</a
@@ -307,9 +307,9 @@
       <div class="as-divider"></div>
 
       <!-- PRODUCCIONES CAROUSEL -->
-      <section id="as-carousel-1" class="container col-xxl-8 pt-4 pb-5">
+      <section id="producciones" class="container col-xxl-8 pt-4 pb-5">
         <h2 class="text-white text-center fs-1 pb-2">Nuestras Producciones</h2>
-        <div class="carousel slide">
+        <div id="as-carousel-1" class="carousel slide">
           <!-- indicator buttons -->
           <div class="carousel-indicators">
             <button
@@ -487,9 +487,7 @@
             data-bs-target="#lightbox-modal"
             data-short-id="sacred-home"
           >
-            <button class="floating-button grow">
-              sacred
-            </button>
+            <button class="floating-button grow">sacred</button>
           </a>
         </div>
 
@@ -559,7 +557,10 @@
             footer como links desactivados.
           </p>
           <p>Marco para las bolitas los stills?</p>
-          <p>link a redes y si quieren ingresar su correo para entrar a la mailing list y enterarse cuando salga algo y así.</p>
+          <p>
+            link a redes y si quieren ingresar su correo para entrar a la
+            mailing list y enterarse cuando salga algo y así.
+          </p>
         </div>
       </section>
     </main>
@@ -621,6 +622,36 @@
             document.querySelector("body").classList = bgClass;
           });
         });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const myCarouselElement = document.querySelector("#as-carousel-1");
+        const produccionesSection = document.querySelector("#producciones");
+
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+          interval: 4000,
+          // touch: false,
+          ride: false,
+          pause: "hover"
+        });
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                carousel.cycle();
+              } else {
+                carousel.pause();
+              }
+            });
+          },
+          {
+            threshold: 0.6,
+          }
+        );
+
+        observer.observe(produccionesSection);
+      });
     </script>
     <script src="../js/lightbox.js"></script>
   </body>
