@@ -1,7 +1,7 @@
 /* ---------------- BODY ---------------- */
 /* Background Options */
 .as-background-1 {
-  background-image: url(../assets/large/images/backgrounds/bg-pages.png); /* TODO: change to jpg/jpeg and reduce size to 100-200kb */
+  background-image: url(../assets/images/backgrounds/bg-pages.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -159,7 +159,7 @@ svg.hover-white:focus {
   left: 25%;
 }
 #floating1 > a > button {
-  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/icarus75.jpg);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/icarus.webp);
   background-position: center;
   background-size: cover;
 }
@@ -169,7 +169,7 @@ svg.hover-white:focus {
   left: 45%;
 }
 #floating2 > a > button {
-  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/mantidae20.jpg);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/mantidae20.webp);
   background-position: center;
   background-size: cover;
 }
@@ -179,7 +179,7 @@ svg.hover-white:focus {
   left: 64%;
 }
 #floating3 > a > button {
-  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/samai80.png);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/samai80.webp);
   background-position: center;
   background-size: cover;
 }
@@ -189,7 +189,7 @@ svg.hover-white:focus {
   left: 15%;
 }
 #floating4 > a > button {
-  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/sacred10.jpg);
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/sacred.webp);
   background-position: center;
   background-size: cover;
 }

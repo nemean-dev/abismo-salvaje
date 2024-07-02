@@ -3,6 +3,7 @@
 # Large media files
 /assets/videos/*
 /assets/images/large/*
+/assets-dev/*
 
 # Can contain sensitive content
 /assets/*

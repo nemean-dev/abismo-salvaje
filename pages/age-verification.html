@@ -42,7 +42,6 @@
         .getElementById("age-check-yes")
         .addEventListener("click", function () {
           localStorage.setItem("ageVerified", "true"); // TODO: set this to expire?
-          sessionStorage.setItem("ageVerified", "true"); // just for testing TODO: delete this line
           window.location.href = redirectUrl;
         });
 
