@@ -55,8 +55,7 @@ header {
   background-color: rgba(0, 0, 0, 0.35) !important;
 }
 .as-icon {
-  -webkit-filter: invert(1);
-  filter: invert(0.7);
+  fill: #FFFC;
   height: 3rem;
 }
 
@@ -97,15 +96,6 @@ header {
   background-repeat: no-repeat;
 }
 
-/* Quienes Somos */
-#quienes-somos-text div {
-  background-image: url("../assets/images/backgrounds/bg-paper.jpg"); /*  todo: reduce size more? */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: "Courier New", Courier, monospace; /* todo: keep this font? */
-}
-
 /* Foto Fija */
 #stills {
   position: relative;
@@ -137,6 +127,15 @@ header {
 .grow:hover,
 .grow:focus {
   transform: scale(1.1);
+}
+
+.hover-white:hover,
+.hover-white:focus {
+  color: white;
+}
+svg.hover-white:hover,
+svg.hover-white:focus {
+  fill: white;
 }
 
 /* CSS for the modal lightbox */
@@ -195,6 +194,15 @@ header {
   background-size: cover;
 }
 
+/* Quienes Somos */
+#quienes-somos-text div {
+  background-image: url("../assets/images/backgrounds/bg-paper.jpg"); /*  todo: reduce size more? */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Courier New", Courier, monospace; /* todo: keep this font? */
+}
+
 /* --------------- FOOTER --------------- */
 footer .nav-link,
 footer p {
@@ -208,6 +216,10 @@ footer p:focus {
 }
 
 .footer-icon {
-  filter: invert(45%) sepia(3%) saturate(1550%) hue-rotate(167deg)
-    brightness(97%) contrast(79%);
+  fill: #999;
+  height: 2rem
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: #ccc
 }
