@@ -1,0 +1,213 @@
+/* ---------------- BODY ---------------- */
+/* Background Options */
+.as-background-1 {
+  background-image: url(../assets/large/images/backgrounds/bg-pages.png); /* TODO: change to jpg/jpeg and reduce size to 100-200kb */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.as-background-2 {
+  background-color: #80008060;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.as-background-3 {
+  background-color: #80008060;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+/* Background Options dropdown */
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+.bd-mode-toggle {
+  z-index: 1500;
+}
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+/* --------------- HEADER --------------- */
+header {
+  font-size: 1.2rem;
+}
+.as-transparent {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+}
+.as-icon {
+  -webkit-filter: invert(1);
+  filter: invert(0.7);
+  height: 3rem;
+}
+
+#as-nav-producciones {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+}
+#as-nav-foto-fija {
+  font-family: "Josefin Sans", sans-serif;
+}
+#as-nav-quienes-somos {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+  /* color: #c0ffee; why is this not rendering */
+}
+#as-nav-tienda {
+  font-family: "Josefin Sans", sans-serif;
+}
+/* ---------------- MAIN ---------------- */
+/* Carousel */
+.as-divider {
+  width: 100%;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.carousel-item {
+  height: 26rem;
+  background: #7773;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Quienes Somos */
+#quienes-somos-text div {
+  background-image: url("../assets/images/backgrounds/bg-paper.jpg"); /*  todo: reduce size more? */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Courier New", Courier, monospace; /* todo: keep this font? */
+}
+
+/* Foto Fija */
+#stills {
+  position: relative;
+  height: 40rem
+}
+
+.floating-div {
+  position: absolute;
+
+  font-family: "Kirang Haerang", sans-serif;
+}
+.floating-button {
+  border-radius: 50%;
+  border: none;
+  color: #aaab;
+  height: 200px;
+  width: 200px;
+  font-size: 2rem;
+}
+.floating-button:hover,
+.floating-button:focus {
+  color: white;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.1);
+}
+
+/* CSS for the modal lightbox */
+.modal-content {
+  background-color: #c997a5;
+  color: #333333;
+}
+.modal-header {
+  border-color: #704264;
+  border-width: 1px;
+}
+.modal-title {
+  font-size: 5rem;
+  font-family: "Square Peg", cursive;
+}
+
+/* Specific classes for each floating circle */
+/* ICARUS */
+#floating1 {
+  top: 20%;
+  left: 25%;
+}
+#floating1 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/icarus75.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* MANTIDAE */
+#floating2 {
+  top: 52%;
+  left: 45%;
+}
+#floating2 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/mantidae20.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* SAMAI */
+#floating3 {
+  top: 28%;
+  left: 64%;
+}
+#floating3 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/samai80.png);
+  background-position: center;
+  background-size: cover;
+}
+/* SACRED HOME OF PLEASURE */
+#floating4 {
+  top: 60%;
+  left: 15%;
+}
+#floating4 > a > button {
+  background-image: url(../assets/images/backgrounds/foto-fija-bolitas/sacred10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* --------------- FOOTER --------------- */
+footer .nav-link,
+footer p {
+  color: #999;
+}
+footer .nav-link:hover,
+footer .nav-link:focus,
+footer p:hover,
+footer p:focus {
+  color: #ccc;
+}
+
+.footer-icon {
+  filter: invert(45%) sepia(3%) saturate(1550%) hue-rotate(167deg)
+    brightness(97%) contrast(79%);
+}
