@@ -196,11 +196,11 @@ svg.hover-white:focus {
 
 /* Quienes Somos */
 #quienes-somos-text div {
-  background-image: url("../assets/images/backgrounds/bg-paper.jpg"); /*  todo: reduce size more? */
+  background-image: url("../assets/images/backgrounds/bg-paper.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: "Courier New", Courier, monospace; /* todo: keep this font? */
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* --------------- FOOTER --------------- */
