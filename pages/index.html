@@ -8,7 +8,7 @@
     <script>
       if (localStorage.getItem("ageVerified") !== "true") {
         const currentPage = window.location.href;
-        window.location.href = `age-verification.html?redirect=${encodeURIComponent(
+        window.location.href = `https://as.nemeandev.com/pages/age-verification.html?redirect=${encodeURIComponent(
           currentPage
         )}`;
       }
@@ -29,14 +29,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/single-page.css" />
+    <link rel="stylesheet" href="/css/single-page.css" />
 
     <!-- Title and favicon -->
     <title>Single Page</title>
     <link
       rel="icon"
       type="image/x-icon"
-      href="../assets/icons/favicon_io/favicon.ico"
+      href="/assets/icons/favicon_io/favicon.ico"
     />
   </head>
 
@@ -279,7 +279,7 @@
           >
             <div class="col-12 col-sm-10 col-lg-6">
               <img
-                src="../assets/images/stills/hero-sacred.jpg"
+                src="/assets/images/stills/hero-sacred.jpg"
                 class="d-block mx-lg-auto img-fluid"
                 alt="sacred still"
                 width="700"
@@ -324,7 +324,7 @@
           >
             <div class="col-12 col-sm-10 col-lg-6">
               <img
-                src="../assets/images/stills/mantidae/mantidae31b.jpg"
+                src="/assets/images/stills/mantidae/mantidae31b.jpg"
                 class="d-block mx-lg-auto img-fluid"
                 alt="mantidae still"
                 height="500"
@@ -401,7 +401,7 @@
             <div
               class="carousel-item active"
               style="
-                background-image: url(../assets/images/backgrounds/slide-bg-sacred.jpeg);
+                background-image: url(/assets/images/backgrounds/slide-bg-sacred.jpeg);
               "
             >
               <div
@@ -415,7 +415,7 @@
             <div
               class="carousel-item"
               style="
-                background-image: url(../assets/images/backgrounds/slide-bg-icarus.webp);
+                background-image: url(/assets/images/backgrounds/slide-bg-icarus.webp);
                 background-size: contain;
               "
             >
@@ -430,7 +430,7 @@
             <div
               class="carousel-item"
               style="
-                background-image: url(../assets/images/backgrounds/slide-bg-mantidae.webp);
+                background-image: url(/assets/images/backgrounds/slide-bg-mantidae.webp);
                 background-size: contain;
               "
             >
@@ -728,6 +728,6 @@
     </script>
 
     <!-- lightbox for stills -->
-    <script src="../js/lightbox.js"></script>
+    <script src="/js/lightbox.js"></script>
   </body>
 </html>
